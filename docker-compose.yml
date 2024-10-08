@@ -1,0 +1,11 @@
+name: encurta-url
+
+services:
+  pg:
+    image: bitnami/postgresql:13.6.0
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USE
+      - POSTGRES_PASSWORD
+      - POSTGRES_DB

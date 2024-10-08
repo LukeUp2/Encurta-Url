@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Encurtador_Url.Api.props" />
+</Project>
